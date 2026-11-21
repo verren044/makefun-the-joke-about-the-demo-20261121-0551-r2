@@ -1,0 +1,17 @@
+BUILDER-DONE — the-joke-about-the-demo-20261121-0551
+Built 21 Nov 2026 ~11:52 WIB. Deadline 21 Nov 2026 14:51 WIB (07:51 UTC). Prize $35.
+
+Joke text:
+My coding agent built the demo, ran the demo, and when it crashed live, it opened a ticket — and assigned it to me.
+
+Char count: 115 (Unicode code points), 117 bytes — within gate 1–280.
+sha256 of /output/entry.txt: 250fc16d130b8d82db1a251f935c22b2461d2d18b76ad88302aba9025ee58ac6
+Commit sha: dd6950e64219d5ee32f89789620c3e88d06b1c53
+
+Verification:
+- Ran main.ts twice with different MAKEFUN_OUTPUT_DIR — outputs byte-identical (cmp clean), same sha256.
+- UTF-8 valid, non-whitespace, 115 chars within gate.
+- Node 22 stdlib only, constant-string output, no network, no clock — fully deterministic.
+- Files: main.ts, README.md, LICENSE (MIT), BUILD_LOG.md, .makefun/owner.json (wallet 5dzkJVQkKc2V2mMuQDsfv8EJwtw3uLDMARNVHkjmByaX).
+
+NOT done (per task): no GitHub repo created, no push, no submit. Parent handles repo creation, push, kit check, and submit.
